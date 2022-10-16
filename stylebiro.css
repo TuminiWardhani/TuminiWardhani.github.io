@@ -1,0 +1,9 @@
+.important{
+    font-weight: bold;
+    color: white;
+}
+
+.img-fluid{
+    width: auto;
+    height: auto;
+}

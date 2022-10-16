@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sightseeing</title>
+        <link rel="stylesheet" href="Teropong.jpg">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <!-- carousel -->
+    <div id="carouselSightseeing" class="carousel slide" data-bs-ride="carousel">
+        <!-- indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselSightseeing" data-bs-slide-to="0" class="active"></button>
+
+                
+            <button type="button" data-bs-target="#carouselSightseeing" data-bs-slide-to="1"></button>
+                
+            <button type="button" data-bs-target="#carouselSightseeing" data-bs-slide-to="2"></button>
+        </div>
+           
+        <!-- the slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img class="d-block" src="assets/images/Pemandangan1.jpg" alt="Air Terjun" style="width:100%; height:40%;">
+                <div class="carousel-caption">
+                    <h3>Air terjun</h3>
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <img class="d-block" src="assets/images/Pemandangan3.jpg" alt="Sawah" style="width:100%; height:40%;">
+                <div class="carousel-caption">
+                    <h3>Sawah</h3>
+                </div>
+            </div>
+            
+            <div class="carousel-item">
+                <img class="d-block" src="assets/images/Pemandangan2.jpg" alt="Tanah lot" style="width:100%; height:40%;">
+                <div class="carousel-caption">
+                    <h3>Tanah lot</h3>
+                </div>
+            </div>
+        </div>
+          
+        <!-- left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselSightseeing" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="'carouselSightseeing" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        </div>
+        <!-- end of carousel -->
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-success text-light> 
+            <div class="container-fluid">
+                <a class=navbar-brand>
+                    <img src="assets/images/Teropong.png" alt="" style="width: 25%;height:25%;padding-left: 20px;"> Sightseeing
+                </a>   
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <!-- Bedanya pakai bs atau tidak? Tolong dijelaskan! -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active"  href="BiroPerjalanan.html">Home</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="TentangKita.html">Tentang kita</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toogle" href="" role="button" data-bs-toggle="dropdown">Usaha pelayanan</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="Ticketing.html">Ticketing</a>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="TourLeader.html">Tour leader</a>
+                                </li>
+
+                                <li>
+                                    <a  class="dropdown-item" href="JasaPelayanan.html">Jasa pelayanan</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="Kontak.html" >Kontak</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex" role="search" style="padding-right: 20px;">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar -->
+
+        <!-- content -->
+        <section class="bg-light py-5">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 px-3 py-3">
+                        <div class="display-5 fw-bold">Ticketing</div>
+                        <br>
+                        <p>Kita bekerja sama dengan berbagai perusahaan besar untuk urusan ticketing.</p>
+                        <p>Perlu diketahui bahwa ticketing ada di Indonesia termasuk provider Asia, tapi bukan Eropa atau Amerika atau benua lainnya. </p>
+                        <p>Dari kerjasama dengan berbagai perusahaan besar, kita dapat memilih penawaran yang terbaik, tapi memang tidak secepat kalau kita cuma 1 program penjualan ticket</p>
+                    </div>
+
+                    <div class="col-md-6 px-3 py-3">
+                        <img src="assets/images/Ticketing.png" alt="" style="width: 500px; height: 300px;"> 
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- end of content -->
+
+        <!-- footer -->
+        <section class="bg-success py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-2 text-light">
+                        <h5>Kontakt:</h5>
+                        <p>Sightseeing <br>
+                        Kahuripan Nirwana I/17 <br>
+                        Sidoarjo - Indonesia
+                        </p>
+                        <p> Whatsapp: <br>
+                            +62 081 1311 8274</p>
+                    </div>
+
+                    <div class="col-sm-4 text-light">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.258753381952!2d112.69273295013997!3d-7.436594994608566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e1416116c791%3A0x3db70c07b43c7cbe!2sKahuripan%20Nirwana!5e0!3m2!1sen!2sde!4v1665771425921!5m2!1sen!2sde" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                    <div class="col-sm-2 text-light">
+                        <h5>Pembicara:</h5>
+                        <p>Veronica <br>
+                        Johannisburgerstr. 8
+                        51373 Leverkusen
+                        Germany</p>
+                        <p>Telefon dan Whatsapp: <br>
+                            +49 176 5655 7044
+                        </p>
+                    </div>
+
+                    <div class="col-sm-4 text-light">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.7121602453194!2d6.989441251196698!3d51.03993677946075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bf2e968d97117d%3A0x625ad7ec79e5559c!2sJohannisburger%20Str.%208%2C%2051373%20Leverkusen!5e0!3m2!1sen!2sde!4v1665771556104!5m2!1sen!2sde" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of footer -->
+
+        <script src="assets/js/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(".nav-item").click(function(){
+                    $(ul).addClass(important);
+                });
+            });
+        </script>
+
+
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/index.js"></script>
+    </body>
+</html>
